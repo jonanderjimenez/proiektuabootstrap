@@ -1,0 +1,37 @@
+header {
+    background-color: rgb(38, 38, 243); 
+    padding: 20px; 
+    color: rgb(255, 255, 255); 
+  }
+  .centrar {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100%;
+  }
+.argazkia{
+    width: 450px; 
+  height: auto; 
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.text {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  /* Añade estilos específicos para dispositivos móviles aquí */
+    .text {
+      flex-direction: column; /* Cambia la dirección de la disposición a columna */
+    }
+    .argazkia{
+      width: 350px; 
+  height: auto; 
+      margin-top: 20px;
+      margin-bottom:20px;
+      margin-right:10px;
+      margin-bottom:10px;
+    }
+  
+}
